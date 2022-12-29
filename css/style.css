@@ -25,6 +25,7 @@ body {
     justify-content: space-between;
     flex-flow: row wrap;
     align-items: center;
+    z-index: 10;
 }
 
 @media screen and (min-width: 320px) and (max-width: 520px) {
@@ -49,4 +50,34 @@ body {
 
 .header a:hover {
     color: #2c61e2;
+}
+
+/* Hero */
+.hero {
+    background-image: url("../resources/images/mission.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    margin: 0 2em;
+    position: relative;
+    top: 69px;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 520px) {
+    .hero {
+        top: 120px;
+        margin: 0;
+    }
+}
+
+.mission {
+    width: 100%;
+    padding: 10px;
+    line-height: 40px;
+}
+
+.mission h2 {
+    font-size: 1.5em;
 }

@@ -48,6 +48,10 @@ body {
     display: inline-block;
 }
 
+.header a:visited {
+    color: #fff5ee;
+}
+
 .header a:hover {
     color: #2c61e2;
 }

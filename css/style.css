@@ -189,6 +189,7 @@ body {
 
     .locations-cards {
         gap: 1em;
+        margin-bottom: 20px;
     }
 }
 
@@ -198,12 +199,43 @@ body {
         margin: 0;
         height: auto;
     }
-
+    
     .locations-title {
         margin-top: 25px;
     }
-
+    
     .locations-cards {
         gap: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+/* Bussines Information */
+.info-container {
+    position: relative;
+    top: 132px;
+    height: 200px;
+    margin: 0 2em;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+}
+
+.info-container h2 {
+    font-size: 1.8em;
+}
+
+/* Copyright */
+#copyright {
+    position: relative;
+    top: 153px;
+    margin: 0 2.8em;
+    text-align: left;
+    font-size: 15px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 520px) {
+    #copyright {
+        text-align: center;
     }
 }

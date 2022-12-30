@@ -85,3 +85,41 @@ body {
 .mission h2 {
     font-size: 1.5em;
 }
+
+/* Tea of the month */
+.tea-container {
+    margin: 0 2em;
+    padding: 10px;
+    position: relative;
+    top: 90px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 520px) {
+    .tea-container {
+        top: 120px;
+    }
+}
+
+.tea-container .tea-container_title>h2 {
+    font-size: 1.3em;
+}
+
+.tea-container_gallery {
+    width: 60%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.tea-container_image {
+    margin: 10px;
+}
+
+.tea-container_image img {
+    width: 300px;
+    height: 200px;
+}

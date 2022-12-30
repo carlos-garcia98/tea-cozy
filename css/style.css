@@ -126,7 +126,7 @@ body {
 
 /* Locations Section */
 .locations-container {
-    background-image: url("/resources/images/locations.jpg");
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1jhoud7*_ga*NzQxMjE2NzQxMS4xNjU3MzEzMTcy*_ga_3LRZM6TM9L*MTY3MjM3MDM2NS4yNS4xLjE2NzIzNzAzNjguNTcuMC4w");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
